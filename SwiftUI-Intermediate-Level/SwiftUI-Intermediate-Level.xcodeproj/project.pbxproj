@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */; };
 		07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */; };
-		07C7C5C72B8CEB6400C4AE6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C62B8CEB6400C4AE6C /* ContentView.swift */; };
 		07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */; };
 		07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		07C7C5C12B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Intermediate_LevelApp.swift; sourceTree = "<group>"; };
-		07C7C5C62B8CEB6400C4AE6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C7C5CA2B8CEB6500C4AE6C /* SwiftUI_Intermediate_Level.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Intermediate_Level.entitlements; sourceTree = "<group>"; };
 		07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +33,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07163C782B8CEBF4004C81E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		07163C792B8CEBFB004C81E6 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		07C7C5B82B8CEB6400C4AE6C = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +68,8 @@
 		07C7C5C32B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level */ = {
 			isa = PBXGroup;
 			children = (
-				07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */,
-				07C7C5C62B8CEB6400C4AE6C /* ContentView.swift */,
+				07163C782B8CEBF4004C81E6 /* App */,
+				07163C792B8CEBFB004C81E6 /* Files */,
 				07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */,
 				07C7C5CA2B8CEB6500C4AE6C /* SwiftUI_Intermediate_Level.entitlements */,
 				07C7C5CB2B8CEB6500C4AE6C /* Preview Content */,
@@ -139,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C7C5C72B8CEB6400C4AE6C /* ContentView.swift in Sources */,
+				07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
