@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */; };
+		0717BCA42B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */; };
 		07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */; };
 		07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */; };
 		07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		07C7C5C12B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Intermediate_LevelApp.swift; sourceTree = "<group>"; };
 		07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */,
+				0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0717BCA42B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift in Sources */,
 				07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
 			);
