@@ -18,6 +18,7 @@
 		077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749E52B92385F00BCD543 /* SoundsBootcamp.swift */; };
 		077749E92B923AB700BCD543 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 077749E82B923AB700BCD543 /* sound1.mp3 */; };
 		077749EB2B923ABD00BCD543 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 077749EA2B923ABD00BCD543 /* sound2.mp3 */; };
+		077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */; };
 		07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */; };
 		07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */; };
 		07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		077749E52B92385F00BCD543 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
 		077749E82B923AB700BCD543 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
 		077749EA2B923ABD00BCD543 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		07C7C5C12B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Intermediate_LevelApp.swift; sourceTree = "<group>"; };
 		07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				070261952B9101530045D5F8 /* MultipleSheetsBootcamp.swift */,
 				077749E32B9234F100BCD543 /* MaskBootcamp.swift */,
 				077749E52B92385F00BCD543 /* SoundsBootcamp.swift */,
+				077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				071245CB2B8F91870033B04F /* GeometryReaderBootcamp.swift in Sources */,
 				07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */,
 				070261962B9101530045D5F8 /* MultipleSheetsBootcamp.swift in Sources */,
+				077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */,
 				071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
 				077749E42B9234F100BCD543 /* MaskBootcamp.swift in Sources */,
