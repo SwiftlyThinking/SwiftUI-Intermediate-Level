@@ -15,6 +15,9 @@
 		0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA52B8E2E5800E905F5 /* RotateGestureBootcamp.swift */; };
 		0717BCA82B8E343B00E905F5 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA72B8E343B00E905F5 /* DragGestureBootcamp.swift */; };
 		077749E42B9234F100BCD543 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749E32B9234F100BCD543 /* MaskBootcamp.swift */; };
+		077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749E52B92385F00BCD543 /* SoundsBootcamp.swift */; };
+		077749E92B923AB700BCD543 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 077749E82B923AB700BCD543 /* sound1.mp3 */; };
+		077749EB2B923ABD00BCD543 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 077749EA2B923ABD00BCD543 /* sound2.mp3 */; };
 		07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */; };
 		07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */; };
 		07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */; };
@@ -29,6 +32,9 @@
 		0717BCA52B8E2E5800E905F5 /* RotateGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGestureBootcamp.swift; sourceTree = "<group>"; };
 		0717BCA72B8E343B00E905F5 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		077749E32B9234F100BCD543 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		077749E52B92385F00BCD543 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		077749E82B923AB700BCD543 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		077749EA2B923ABD00BCD543 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
 		07C7C5C12B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Intermediate_LevelApp.swift; sourceTree = "<group>"; };
 		07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,8 +72,18 @@
 				071245CA2B8F91870033B04F /* GeometryReaderBootcamp.swift */,
 				070261952B9101530045D5F8 /* MultipleSheetsBootcamp.swift */,
 				077749E32B9234F100BCD543 /* MaskBootcamp.swift */,
+				077749E52B92385F00BCD543 /* SoundsBootcamp.swift */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		077749E72B923A7500BCD543 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				077749E82B923AB700BCD543 /* sound1.mp3 */,
+				077749EA2B923ABD00BCD543 /* sound2.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		07C7C5B82B8CEB6400C4AE6C = {
@@ -91,6 +107,7 @@
 			children = (
 				07163C782B8CEBF4004C81E6 /* App */,
 				07163C792B8CEBFB004C81E6 /* Files */,
+				077749E72B923A7500BCD543 /* Sounds */,
 				07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */,
 				07C7C5CA2B8CEB6500C4AE6C /* SwiftUI_Intermediate_Level.entitlements */,
 				07C7C5CB2B8CEB6500C4AE6C /* Preview Content */,
@@ -164,8 +181,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077749E92B923AB700BCD543 /* sound1.mp3 in Resources */,
 				07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */,
 				07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */,
+				077749EB2B923ABD00BCD543 /* sound2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */,
 				0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */,
 				0717BCA42B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift in Sources */,
 				071245CB2B8F91870033B04F /* GeometryReaderBootcamp.swift in Sources */,
