@@ -24,6 +24,7 @@
 		07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */; };
 		07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */; };
 		07D2D2B52B96454A00175CCE /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2D2B42B96454A00175CCE /* HashableBootcamp.swift */; };
+		07D2D2B72B96499800175CCE /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D2D2B62B96499800175CCE /* ArraysBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		07C7C5CA2B8CEB6500C4AE6C /* SwiftUI_Intermediate_Level.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Intermediate_Level.entitlements; sourceTree = "<group>"; };
 		07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07D2D2B42B96454A00175CCE /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		07D2D2B62B96499800175CCE /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */,
 				077EB1102B938F87008BA00A /* LocalNotificationsBootcamp.swift */,
 				07D2D2B42B96454A00175CCE /* HashableBootcamp.swift */,
+				07D2D2B62B96499800175CCE /* ArraysBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */,
 				071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
+				07D2D2B72B96499800175CCE /* ArraysBootcamp.swift in Sources */,
 				077749E42B9234F100BCD543 /* MaskBootcamp.swift in Sources */,
 				077EB1112B938F87008BA00A /* LocalNotificationsBootcamp.swift in Sources */,
 				0717BCA82B8E343B00E905F5 /* DragGestureBootcamp.swift in Sources */,
