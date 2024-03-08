@@ -14,6 +14,10 @@
 		0717BCA42B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */; };
 		0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA52B8E2E5800E905F5 /* RotateGestureBootcamp.swift */; };
 		0717BCA82B8E343B00E905F5 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA72B8E343B00E905F5 /* DragGestureBootcamp.swift */; };
+		077159062B9B8A9C0001DFD0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077159052B9B8A9C0001DFD0 /* CoreDataManager.swift */; };
+		077159082B9B8AC70001DFD0 /* RelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077159072B9B8AC70001DFD0 /* RelationshipsViewModel.swift */; };
+		0771590A2B9B8AD50001DFD0 /* RelationshipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077159092B9B8AD50001DFD0 /* RelationshipsView.swift */; };
+		0771590D2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0771590B2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodeld */; };
 		077749E42B9234F100BCD543 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749E32B9234F100BCD543 /* MaskBootcamp.swift */; };
 		077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749E52B92385F00BCD543 /* SoundsBootcamp.swift */; };
 		077749E92B923AB700BCD543 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 077749E82B923AB700BCD543 /* sound1.mp3 */; };
@@ -37,6 +41,10 @@
 		0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		0717BCA52B8E2E5800E905F5 /* RotateGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGestureBootcamp.swift; sourceTree = "<group>"; };
 		0717BCA72B8E343B00E905F5 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		077159052B9B8A9C0001DFD0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		077159072B9B8AC70001DFD0 /* RelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipsViewModel.swift; sourceTree = "<group>"; };
+		077159092B9B8AD50001DFD0 /* RelationshipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipsView.swift; sourceTree = "<group>"; };
+		0771590C2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RelationshipsContainer.xcdatamodel; sourceTree = "<group>"; };
 		077749E32B9234F100BCD543 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		077749E52B92385F00BCD543 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
 		077749E82B923AB700BCD543 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
@@ -93,6 +101,17 @@
 			path = Files;
 			sourceTree = "<group>";
 		};
+		077159042B9B8A5F0001DFD0 /* CoreDataRelationships */ = {
+			isa = PBXGroup;
+			children = (
+				077159052B9B8A9C0001DFD0 /* CoreDataManager.swift */,
+				077159072B9B8AC70001DFD0 /* RelationshipsViewModel.swift */,
+				077159092B9B8AD50001DFD0 /* RelationshipsView.swift */,
+				0771590B2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodeld */,
+			);
+			path = CoreDataRelationships;
+			sourceTree = "<group>";
+		};
 		077749E72B923A7500BCD543 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +143,7 @@
 				07163C782B8CEBF4004C81E6 /* App */,
 				07163C792B8CEBFB004C81E6 /* Files */,
 				07D401F52B9870B900A9942F /* CoreDataMVVM */,
+				077159042B9B8A5F0001DFD0 /* CoreDataRelationships */,
 				077749E72B923A7500BCD543 /* Sounds */,
 				07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */,
 				07C7C5CA2B8CEB6500C4AE6C /* SwiftUI_Intermediate_Level.entitlements */,
@@ -225,14 +245,18 @@
 				077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */,
 				0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */,
 				0717BCA42B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift in Sources */,
+				077159062B9B8A9C0001DFD0 /* CoreDataManager.swift in Sources */,
 				071245CB2B8F91870033B04F /* GeometryReaderBootcamp.swift in Sources */,
+				0771590A2B9B8AD50001DFD0 /* RelationshipsView.swift in Sources */,
 				07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */,
 				070261962B9101530045D5F8 /* MultipleSheetsBootcamp.swift in Sources */,
 				077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */,
 				07D401F82B98710600A9942F /* UsersContainer.xcdatamodeld in Sources */,
+				077159082B9B8AC70001DFD0 /* RelationshipsViewModel.swift in Sources */,
 				071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
 				07D2D2B72B96499800175CCE /* ArraysBootcamp.swift in Sources */,
+				0771590D2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodeld in Sources */,
 				077749E42B9234F100BCD543 /* MaskBootcamp.swift in Sources */,
 				077EB1112B938F87008BA00A /* LocalNotificationsBootcamp.swift in Sources */,
 				07D401F42B9870A900A9942F /* CoreDataBootcamp.swift in Sources */,
@@ -453,6 +477,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		0771590B2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0771590C2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodel */,
+			);
+			currentVersion = 0771590C2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodel */;
+			name = RelationshipsContainer.xcdatamodeld;
+			path = "/Users/mykyta-kuzminov/Documents/Code/Projects/SwiftUI-Intermediate-Level/SwiftUI-Intermediate-Level/SwiftUI-Intermediate-Level/CoreDataRelationships/RelationshipsContainer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		07D401F62B98710600A9942F /* UsersContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
