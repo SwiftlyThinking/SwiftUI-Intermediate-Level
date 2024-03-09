@@ -32,6 +32,7 @@
 		07D401F42B9870A900A9942F /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D401F32B9870A900A9942F /* CoreDataBootcamp.swift */; };
 		07D401F82B98710600A9942F /* UsersContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D401F62B98710600A9942F /* UsersContainer.xcdatamodeld */; };
 		07DCB5AE2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */; };
+		07DCB5B02B9C6F8900A30E19 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		07D401F32B9870A900A9942F /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		07D401F72B98710600A9942F /* UsersContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsersContainer.xcdatamodel; sourceTree = "<group>"; };
 		07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				07D2D2B42B96454A00175CCE /* HashableBootcamp.swift */,
 				07D2D2B62B96499800175CCE /* ArraysBootcamp.swift */,
 				07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */,
+				07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				07D401F82B98710600A9942F /* UsersContainer.xcdatamodeld in Sources */,
 				077159082B9B8AC70001DFD0 /* RelationshipsViewModel.swift in Sources */,
 				071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */,
+				07DCB5B02B9C6F8900A30E19 /* WeakSelfBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
 				07D2D2B72B96499800175CCE /* ArraysBootcamp.swift in Sources */,
 				0771590D2B9B8AF80001DFD0 /* RelationshipsContainer.xcdatamodeld in Sources */,
