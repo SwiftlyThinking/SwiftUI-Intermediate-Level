@@ -14,6 +14,7 @@
 		0717BCA42B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */; };
 		0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA52B8E2E5800E905F5 /* RotateGestureBootcamp.swift */; };
 		0717BCA82B8E343B00E905F5 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0717BCA72B8E343B00E905F5 /* DragGestureBootcamp.swift */; };
+		072E1B8B2B9C773500B475D9 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */; };
 		077159062B9B8A9C0001DFD0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077159052B9B8A9C0001DFD0 /* CoreDataManager.swift */; };
 		077159082B9B8AC70001DFD0 /* RelationshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077159072B9B8AC70001DFD0 /* RelationshipsViewModel.swift */; };
 		0771590A2B9B8AD50001DFD0 /* RelationshipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077159092B9B8AD50001DFD0 /* RelationshipsView.swift */; };
@@ -43,6 +44,7 @@
 		0717BCA32B8E2BEF00E905F5 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		0717BCA52B8E2E5800E905F5 /* RotateGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGestureBootcamp.swift; sourceTree = "<group>"; };
 		0717BCA72B8E343B00E905F5 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
 		077159052B9B8A9C0001DFD0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		077159072B9B8AC70001DFD0 /* RelationshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipsViewModel.swift; sourceTree = "<group>"; };
 		077159092B9B8AD50001DFD0 /* RelationshipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipsView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				07D2D2B62B96499800175CCE /* ArraysBootcamp.swift */,
 				07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */,
 				07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */,
+				072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */,
 				07D401F82B98710600A9942F /* UsersContainer.xcdatamodeld in Sources */,
 				077159082B9B8AC70001DFD0 /* RelationshipsViewModel.swift in Sources */,
+				072E1B8B2B9C773500B475D9 /* TypealiasBootcamp.swift in Sources */,
 				071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */,
 				07DCB5B02B9C6F8900A30E19 /* WeakSelfBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
