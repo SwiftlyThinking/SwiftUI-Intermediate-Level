@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		070261962B9101530045D5F8 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070261952B9101530045D5F8 /* MultipleSheetsBootcamp.swift */; };
 		07039A0B2B9CC6A80066921C /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07039A0A2B9CC6A80066921C /* CodableBootcamp.swift */; };
+		07039A0D2B9CC99E0066921C /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07039A0C2B9CC99E0066921C /* DownloadWithEscapingBootcamp.swift */; };
 		071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071245C82B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift */; };
 		071245CB2B8F91870033B04F /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071245CA2B8F91870033B04F /* GeometryReaderBootcamp.swift */; };
 		07163C7B2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		070261952B9101530045D5F8 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		07039A0A2B9CC6A80066921C /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		07039A0C2B9CC99E0066921C /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		071245C82B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		071245CA2B8F91870033B04F /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		07163C7A2B8CEC1B004C81E6 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */,
 				07C4E66F2B9C8C8600A17FC9 /* EscapingBootcamp.swift */,
 				07039A0A2B9CC6A80066921C /* CodableBootcamp.swift */,
+				07039A0C2B9CC99E0066921C /* DownloadWithEscapingBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				077159082B9B8AC70001DFD0 /* RelationshipsViewModel.swift in Sources */,
 				072E1B8B2B9C773500B475D9 /* TypealiasBootcamp.swift in Sources */,
 				071245C92B8F8D4E0033B04F /* ScrollViewReaderBootcamp.swift in Sources */,
+				07039A0D2B9CC99E0066921C /* DownloadWithEscapingBootcamp.swift in Sources */,
 				07039A0B2B9CC6A80066921C /* CodableBootcamp.swift in Sources */,
 				07DCB5B02B9C6F8900A30E19 /* WeakSelfBootcamp.swift in Sources */,
 				07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */,
