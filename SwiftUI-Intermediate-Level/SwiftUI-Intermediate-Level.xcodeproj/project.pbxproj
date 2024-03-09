@@ -25,6 +25,7 @@
 		077749EB2B923ABD00BCD543 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 077749EA2B923ABD00BCD543 /* sound2.mp3 */; };
 		077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */; };
 		077EB1112B938F87008BA00A /* LocalNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EB1102B938F87008BA00A /* LocalNotificationsBootcamp.swift */; };
+		07C4E6702B9C8C8600A17FC9 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4E66F2B9C8C8600A17FC9 /* EscapingBootcamp.swift */; };
 		07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */; };
 		07C7C5C92B8CEB6500C4AE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */; };
 		07C7C5CD2B8CEB6500C4AE6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C7C5CC2B8CEB6500C4AE6C /* Preview Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		077749EA2B923ABD00BCD543 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
 		077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		077EB1102B938F87008BA00A /* LocalNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsBootcamp.swift; sourceTree = "<group>"; };
+		07C4E66F2B9C8C8600A17FC9 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		07C7C5C12B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Intermediate_LevelApp.swift; sourceTree = "<group>"; };
 		07C7C5C82B8CEB6500C4AE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */,
 				07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */,
 				072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */,
+				07C4E66F2B9C8C8600A17FC9 /* EscapingBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -206,7 +209,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					07C7C5C02B8CEB6400C4AE6C = {
 						CreatedOnToolsVersion = 15.2;
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C4E6702B9C8C8600A17FC9 /* EscapingBootcamp.swift in Sources */,
 				07D2D2B52B96454A00175CCE /* HashableBootcamp.swift in Sources */,
 				077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */,
 				0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */,
@@ -313,6 +317,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -374,6 +379,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -401,6 +407,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Intermediate-Level/SwiftUI_Intermediate_Level.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Intermediate-Level/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -437,6 +444,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SwiftUI-Intermediate-Level/SwiftUI_Intermediate_Level.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Intermediate-Level/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
