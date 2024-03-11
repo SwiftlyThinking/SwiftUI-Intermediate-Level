@@ -32,7 +32,7 @@ class NotificationManager {
         content.badge = 1
         
         // Time
-        let timeTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 10.0, repeats: false)
+//        let timeTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 10.0, repeats: false)
         
         // Calendar
         var dateComponents = DateComponents()

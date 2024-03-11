@@ -39,6 +39,7 @@
 		07D401F42B9870A900A9942F /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D401F32B9870A900A9942F /* CoreDataBootcamp.swift */; };
 		07D401F82B98710600A9942F /* UsersContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D401F62B98710600A9942F /* UsersContainer.xcdatamodeld */; };
 		07DA07F42B9F6D6700C33E0D /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA07F32B9F6D6700C33E0D /* FileManagerBootcamp.swift */; };
+		07DA07F62B9F7F4600C33E0D /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA07F52B9F7F4600C33E0D /* CacheBootcamp.swift */; };
 		07DCB5AE2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */; };
 		07DCB5B02B9C6F8900A30E19 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		07D401F32B9870A900A9942F /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		07D401F72B98710600A9942F /* UsersContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsersContainer.xcdatamodel; sourceTree = "<group>"; };
 		07DA07F32B9F6D6700C33E0D /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
+		07DA07F52B9F7F4600C33E0D /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
 		07DCB5AD2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		07DCB5AF2B9C6F8900A30E19 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				07544A532B9DAE86000CC1C6 /* TimerBootcamp.swift */,
 				07B84B082B9DBBB700391934 /* SubscriberBootcamp.swift */,
 				07DA07F32B9F6D6700C33E0D /* FileManagerBootcamp.swift */,
+				07DA07F52B9F7F4600C33E0D /* CacheBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				07D2D2B52B96454A00175CCE /* HashableBootcamp.swift in Sources */,
 				077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */,
 				0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */,
+				07DA07F62B9F7F4600C33E0D /* CacheBootcamp.swift in Sources */,
 				07544A522B9DAA7F000CC1C6 /* DownloadWithCombineBootcamp.swift in Sources */,
 				07DCB5AE2B9C6A7C00A30E19 /* BackgroundThreadBootcamp.swift in Sources */,
 				07DA07F42B9F6D6700C33E0D /* FileManagerBootcamp.swift in Sources */,
