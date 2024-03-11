@@ -39,7 +39,7 @@ class NotificationManager {
         dateComponents.hour = 19
         dateComponents.minute = 25
         
-        let calendarTriger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+//        let calendarTriger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         
         // Location
         let coordinates = CLLocationCoordinate2D(
@@ -54,15 +54,13 @@ class NotificationManager {
         region.notifyOnEntry = true
         region.notifyOnExit = true
         
-        
-        let LocationTrigger = UNLocationNotificationTrigger(region: region, repeats: true)
-        
+//        let LocationTrigger = UNLocationNotificationTrigger(region: region, repeats: true)
         
         
-        let request = UNNotificationRequest(
-            identifier: "Notification",
-            content: content,
-            trigger: timeTrigger)
+//        let request = UNNotificationRequest(
+//            identifier: "Notification",
+//            content: content,
+//            trigger: timeTrigger)
     }
     
     func cancelAutorization() {
