@@ -38,6 +38,7 @@
 		077749ED2B923C4000BCD543 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */; };
 		077EB1112B938F87008BA00A /* LocalNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EB1102B938F87008BA00A /* LocalNotificationsBootcamp.swift */; };
 		07B6E7392BA0D7E700C05A49 /* AccessibilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6E7382BA0D7E700C05A49 /* AccessibilityTextBootcamp.swift */; };
+		07B6E73B2BA0E38500C05A49 /* AccessibilityColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6E73A2BA0E38500C05A49 /* AccessibilityColorsBootcamp.swift */; };
 		07B84B092B9DBBB700391934 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B84B082B9DBBB700391934 /* SubscriberBootcamp.swift */; };
 		07C4E6702B9C8C8600A17FC9 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4E66F2B9C8C8600A17FC9 /* EscapingBootcamp.swift */; };
 		07C7C5C52B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C5C42B8CEB6400C4AE6C /* SwiftUI_Intermediate_LevelApp.swift */; };
@@ -85,6 +86,7 @@
 		077749EC2B923C4000BCD543 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		077EB1102B938F87008BA00A /* LocalNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		07B6E7382BA0D7E700C05A49 /* AccessibilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBootcamp.swift; sourceTree = "<group>"; };
+		07B6E73A2BA0E38500C05A49 /* AccessibilityColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorsBootcamp.swift; sourceTree = "<group>"; };
 		07B84B082B9DBBB700391934 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		07C4E66F2B9C8C8600A17FC9 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
 		07C7C5C12B8CEB6400C4AE6C /* SwiftUI-Intermediate-Level.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Intermediate-Level.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +198,7 @@
 				07DA07F32B9F6D6700C33E0D /* FileManagerBootcamp.swift */,
 				07DA07F52B9F7F4600C33E0D /* CacheBootcamp.swift */,
 				07B6E7382BA0D7E700C05A49 /* AccessibilityTextBootcamp.swift */,
+				07B6E73A2BA0E38500C05A49 /* AccessibilityColorsBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C4E6702B9C8C8600A17FC9 /* EscapingBootcamp.swift in Sources */,
+				07B6E73B2BA0E38500C05A49 /* AccessibilityColorsBootcamp.swift in Sources */,
 				07D2D2B52B96454A00175CCE /* HashableBootcamp.swift in Sources */,
 				077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */,
 				0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */,
