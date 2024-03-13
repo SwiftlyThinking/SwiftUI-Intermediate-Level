@@ -27,6 +27,7 @@
 		07191FE92BA1945B00546AED /* AccessibilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07191FE82BA1945B00546AED /* AccessibilityVoiceOverBootcamp.swift */; };
 		07191FEB2BA198F600546AED /* AlignmentGuideBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07191FEA2BA198F600546AED /* AlignmentGuideBootcamp.swift */; };
 		07191FED2BA19D7D00546AED /* VisualEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07191FEC2BA19D7D00546AED /* VisualEffectBootcamp.swift */; };
+		07191FEF2BA19F5100546AED /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07191FEE2BA19F5100546AED /* ScrollViewPagingBootcamp.swift */; };
 		072E1B8B2B9C773500B475D9 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */; };
 		07544A522B9DAA7F000CC1C6 /* DownloadWithCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07544A512B9DAA7E000CC1C6 /* DownloadWithCombineBootcamp.swift */; };
 		07544A542B9DAE86000CC1C6 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07544A532B9DAE86000CC1C6 /* TimerBootcamp.swift */; };
@@ -78,6 +79,7 @@
 		07191FE82BA1945B00546AED /* AccessibilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
 		07191FEA2BA198F600546AED /* AlignmentGuideBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideBootcamp.swift; sourceTree = "<group>"; };
 		07191FEC2BA19D7D00546AED /* VisualEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBootcamp.swift; sourceTree = "<group>"; };
+		07191FEE2BA19F5100546AED /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		072E1B8A2B9C773500B475D9 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
 		07544A512B9DAA7E000CC1C6 /* DownloadWithCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBootcamp.swift; sourceTree = "<group>"; };
 		07544A532B9DAE86000CC1C6 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				07191FE82BA1945B00546AED /* AccessibilityVoiceOverBootcamp.swift */,
 				07191FEA2BA198F600546AED /* AlignmentGuideBootcamp.swift */,
 				07191FEC2BA19D7D00546AED /* VisualEffectBootcamp.swift */,
+				07191FEE2BA19F5100546AED /* ScrollViewPagingBootcamp.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				07B6E73B2BA0E38500C05A49 /* AccessibilityColorsBootcamp.swift in Sources */,
 				07D2D2B52B96454A00175CCE /* HashableBootcamp.swift in Sources */,
 				077749E62B92385F00BCD543 /* SoundsBootcamp.swift in Sources */,
+				07191FEF2BA19F5100546AED /* ScrollViewPagingBootcamp.swift in Sources */,
 				0717BCA62B8E2E5800E905F5 /* RotateGestureBootcamp.swift in Sources */,
 				07DA07F62B9F7F4600C33E0D /* CacheBootcamp.swift in Sources */,
 				070A04222BA097D2000A34A0 /* ImageLoadingViewModel.swift in Sources */,
